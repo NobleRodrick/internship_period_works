@@ -9,11 +9,11 @@ async function delayedGreet(name){
 
 delayedGreet("Alloh Nkefor Rodrick");
 
-async function dividion(num1, num2) {
+async function division(num1, num2) {
     try {
         if(num2 === 0){
-            throw new Error("Cannot divide by zero");}
-
+            throw new Error("Cannot divide by zero");
+        }
             return num1 / num2;
     } catch(error){
         console.log("error", error);
@@ -22,8 +22,8 @@ async function dividion(num1, num2) {
 }
 
 async function mainFn() {
-    const result = await dividion(10, 0);
-    const result2 = await dividion(10, 5);
+    const result = await division(10, 0);
+    const result2 = await division(10, 5);
     console.log(result);
     console.log(result2);
 }
