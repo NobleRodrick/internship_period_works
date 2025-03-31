@@ -4,7 +4,7 @@ console.log(firstModule.add(10, 20));
 
 
 try{
-    log("tyring to divide by zero");
+    console.log("tyring to divide by zero");
     let result = firstModule.divide(10, 0);
     console.log(result);
 
