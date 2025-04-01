@@ -1,0 +1,20 @@
+GET http://localhost:3000/posts
+Authorization: Bearer
+
+ba339316adc1cfed77a41a1c7b9b03d4635fef4e26e65f4eb6f301ddc18b88d6f2795a0009261192ebdbdab4e65df785e76fcec82fee08a7c924d772e8df20b9
+
+
+POST http://localhost:4000/login
+Content-Type: application/json
+
+{
+    "username": "Noblility"
+}
+
+
+POST http://localhost:4000/token
+Content-Type: application/json
+
+{
+    "token": "Jim"
+}
