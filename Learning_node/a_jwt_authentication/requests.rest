@@ -18,3 +18,10 @@ Content-Type: application/json
 {
     "token": "Jim"
 }
+
+DELETE http://localhost:4000/logout
+Content-Type: application/json
+
+{
+    "token": "enter your refresh token"
+}
